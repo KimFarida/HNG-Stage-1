@@ -10,8 +10,8 @@ def get_info():
     track = request.args.get('track')
     current_day = datetime.datetime.utcnow().strftime("%A")
     utc_time = datetime.datetime.utcnow().isoformat() + 'Z'
-    github_file_url = 'https://github.com/username/repo/blob/main/file_name.ext'
-    github_repo_url = 'https://github.com/username/repo'
+    github_file_url = 'https://github.com/KimFarida/HNG-Stage-1/blob/main/Stage1/app.py'
+    github_repo_url = 'https://github.com/KimFarida/HNG-Stage-1'
 
     response = {
         'slack_name': slack_name,

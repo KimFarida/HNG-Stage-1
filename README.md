@@ -23,7 +23,7 @@
 
 ## API Usage
 
-- Access the API by sending a GET request to: `http://your-host.com/api?slack_name=KimFarida&track=backend`
+- Access the API by sending a GET request to: `http://your-host.com/api?slack_name=your_name&track=your_track`
 - Replace `your_name`, and `your_track` with your specific values.
 
 ## Contributions

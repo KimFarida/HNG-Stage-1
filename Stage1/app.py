@@ -9,7 +9,7 @@ def get_info():
     slack_name = request.args.get('slack_name')
     track = request.args.get('track')
     current_day = datetime.datetime.utcnow().strftime("%A")
-    utc_time = datetime.datetime.utcnow().isoformat() + 'Z'
+    utc_time = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
     github_file_url = 'https://github.com/KimFarida/HNG-Stage-1/blob/main/Stage1/app.py'
     github_repo_url = 'https://github.com/KimFarida/HNG-Stage-1'
 

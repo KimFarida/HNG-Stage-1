@@ -6,7 +6,7 @@
 
 - **Endpoint**: Access the API at `/api` with query parameters for `slack_name` and `track`.
 - **Returns**: Returns JSON data including Slack name, current day, UTC time, track, GitHub file URL, GitHub repo URL, and a success status code.
-- **Demo**: Check out the live demo at [API Demo](https://example.com/api?slack_name=KimFarida&track=backend).
+- **Demo**: Check out the live demo at [API Demo](https://kimfarida.pythonanywhere.com/api?slack_name=KimFarida&track=backend).
 
 ## Technologies Used
 
@@ -23,7 +23,7 @@
 
 ## API Usage
 
-- Access the API by sending a GET request to: `http://your-host.com/api?slack_name=your_name&track=your_track`
+- Access the API by sending a GET request to: `https://kimfarida.pythonanywhere.com/api?slack_name=your_name&track=your_track`
 - Replace `your_name`, and `your_track` with your specific values.
 
 ## Contributions

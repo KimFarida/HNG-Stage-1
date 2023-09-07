@@ -18,7 +18,8 @@
 
 1. Clone the repository: `git clone https://https://github.com/KimFarida/HNG-Stage-1`
 2. Install Flask: `pip install Flask`
-3. Run the Flask app: `python app.py`
+3. Navigate to the Task directory ```cd Stage1```
+4. Run the Flask app: `python app.py`
 
 ## API Usage
 
